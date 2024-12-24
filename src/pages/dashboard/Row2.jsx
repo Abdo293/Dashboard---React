@@ -29,13 +29,13 @@ export const Row2 = () => {
         <Typography pl={1.5}>$51.342.32</Typography>
         <Line isDashboard={true} />
       </Paper>
-      <Box sx={{ flexGrow: 1, maxHeight: 375, overflow: "auto" }}>
+      <Box sx={{ flexGrow: 1, maxHeight: 380, overflow: "auto" }}>
         <Paper>
           <Typography
             color={theme.palette.secondary.main}
             fontWeight={"bold"}
             p={1.2}
-            variant="h6"
+            variant="h5"
           >
             Recent Transactions
           </Typography>
